@@ -1,0 +1,13 @@
+body {
+    background: black;
+    color: #ccc;
+}
+
+a:visited {
+    color: #ccc;
+}
+
+#content {
+    width: 1080px;
+    margin: 0 auto;
+}

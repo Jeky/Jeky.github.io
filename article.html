@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>/home/Jeky</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+            href="https:///cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/tomorrow-night-eighties.min.css">
+        <script
+            src="https:///cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.0.4/markdown-it.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div id="content"></div>
+        <script>
+            render(window.location.search.substr(1), 'content')
+        </script>
+    </body>
+</html>
