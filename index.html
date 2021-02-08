@@ -2,23 +2,17 @@
 <html>
     <head>
         <title>/home/Jeky</title>
-        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="/style/style.css">
 
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.0.4/markdown-it.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="/js/main.js"></script>
     </head>
     <body>
         <div id="content" class="home">
-            <h1>/home/Jeky</h1>
-            <ul>
-                <li>Articles
-                    <ul>
-                        <li><a href="article/article.html?20210205.md"><span class="date">2021/02/08</span>A New Start Again.md</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">About Me</a></li>
-            </ul>
         </div>
+        <script>
+            fill_directory('js/meta.json', 'content')
+        </script>
     </body>
 </html>
