@@ -1,6 +1,5 @@
 body {
     background-color: black;
-    height: 100vh;
     color: #ccc;
     font: 1rem Inconsolata, monospace;
 }
@@ -17,7 +16,7 @@ a:hover {
 }
 
 #content {
-    width: 1080px;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -40,8 +39,4 @@ a:hover {
     content: '\002EA';
     font-size: 20px;
     margin-right: 4px;
-}
-
-.home .date {
-    margin: 0 3em 0 0;
 }
