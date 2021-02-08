@@ -1,0 +1,44 @@
+body {
+    background: black;
+    color: #ccc;
+}
+
+a,a:visited {
+    color: #ccc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#content {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.home h1,h2,h3,h4,h5,h6 {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.home ul {
+    padding: 0 0 0 1em;
+    margin: 0;
+}
+
+.home li {
+    list-style-type: none;
+}
+
+.home li::before {
+    content: '\002EA';
+    font-size: 20px;
+    margin-right: 4px;
+}
+
+.home .date {
+    margin: 0 3em 0 0;
+}
