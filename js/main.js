@@ -15,7 +15,11 @@ function render(file, element_id) {
 
     fetch(file)
         .then(response => response.text())
-        .then(text => document.getElementById(element_id).innerHTML = md.render(text))
+        .then(text => {
+            const content = md.render(text)
+            const breadcrumb = `<div class='home'><h1><a href='/'>/home/Jeky</a>/articles/${file}</h1></div>`
+            document.getElementById(element_id).innerHTML = [breadcrumb, content].join('')
+        })
 }
 
 function parse_directory(node) {
